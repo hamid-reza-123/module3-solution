@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.mx-5 {
+    margin: 0 5px !important;
+}
+
+
+@media (min-width:768px) and (max-width:1400px) {
+
+    .navbar,
+    .navbar-toggler {
+        display: none;
+    }
+}
